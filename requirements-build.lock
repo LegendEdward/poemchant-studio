@@ -1,0 +1,14 @@
+# Exact versions used for the 2.0.0 local arm64/Python 3.12 build and tests.
+# Install the project separately with: python -m pip install --no-deps .
+altgraph==0.17.5
+lxml==6.1.3
+macholib==1.16.4
+mido==1.3.3
+numpy==2.3.5
+opencc-python-reimplemented==0.1.7
+packaging==26.3
+pillow==12.3.0
+pyinstaller==6.22.0
+pyinstaller-hooks-contrib==2026.9
+pypinyin==0.55.0
+setuptools==84.2.1

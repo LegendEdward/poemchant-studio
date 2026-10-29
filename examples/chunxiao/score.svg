@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1304" viewBox="0 0 1400 1304">
+<rect width="100%" height="100%" fill="#faf8f2"/>
+<style>text{font-family:"Songti SC","Noto Serif CJK SC",serif;fill:#203c38}.meta{font-family:system-ui,sans-serif;font-size:15px;fill:#63736b}.small{font-family:system-ui,sans-serif;font-size:13px;fill:#6c786f}</style>
+<text x="66" y="45" font-size="30">春晓</text>
+<text x="68" y="77" class="meta">孟浩然</text>
+<text x="68" y="113" class="meta">候选吟诵曲线谱 · 公开规则 R0（未训练） · 13.47 秒 · 器乐示意</text>
+<text x="68" y="137" class="small">字下方依次为：拼音 / 历史调类 / 时长 / 韵部候选。橙色表示待核对或用户修改；短竖线表示编辑性分节。</text>
+<path d="M72 206.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 246.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 286.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72.0000 197 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="72.0000,221.6863 130.5094,221.6863 189.0189,221.6863 247.5283,221.6863 306.0377,221.6863" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M189.019 297 L189.019 313" stroke="#c7d0c5"/>
+<text data-character="春" x="189.019" y="346" font-size="31" text-anchor="middle">春</text>
+<text x="189.019" y="371" class="meta" text-anchor="middle">chun1 · 平</text>
+<text x="189.019" y="392" class="small" text-anchor="middle">536 ms</text>
+<text x="189.019" y="414" class="small" text-anchor="middle">十一真</text>
+<path d="M306.0377 197 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="306.0377,255.4118 369.2279,247.5686 432.4181,239.7255 495.6083,224.0392 558.7984,216.1961" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M432.418 297 L432.418 313" stroke="#c7d0c5"/>
+<text data-character="眠" x="432.418" y="346" font-size="31" text-anchor="middle">眠</text>
+<text x="432.418" y="371" class="meta" text-anchor="middle">mian2 · 平</text>
+<text x="432.418" y="392" class="small" text-anchor="middle">579 ms</text>
+<text x="432.418" y="414" class="small" text-anchor="middle">一先</text>
+<path d="M558.798 320 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M558.7984 197 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="558.7984,218.5490 609.6762,226.3922 660.5540,242.0784 711.4317,257.7647 762.3095,265.6078" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M660.554 297 L660.554 313" stroke="#c7d0c5"/>
+<text data-character="不" x="660.554" y="346" font-size="31" text-anchor="middle">不</text>
+<text x="660.554" y="371" class="meta" text-anchor="middle">bu4 · ?</text>
+<text x="660.554" y="392" class="small" text-anchor="middle">466 ms</text>
+<text x="660.554" y="414" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M762.3095 197 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="762.3095,260.1176 817.2575,252.2745 872.2055,244.4314 927.1534,228.7451 982.1014,220.9020" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M872.205 297 L872.205 313" stroke="#c7d0c5"/>
+<text data-character="觉" x="872.205" y="346" font-size="31" text-anchor="middle">觉</text>
+<text x="872.205" y="371" class="meta" text-anchor="middle">jue2 · ?</text>
+<text x="872.205" y="392" class="small" text-anchor="middle">504 ms</text>
+<text x="872.205" y="414" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M982.101 320 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M982.1014 197 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="982.1014,254.6275 1067.5761,270.3137 1153.0507,278.1569 1238.5254,262.4706 1324.0000,238.9412" fill="none" stroke="#267169" stroke-width="3"/>
+<path d="M1153.051 297 L1153.051 313" stroke="#c7d0c5"/>
+<text data-character="晓" x="1153.051" y="346" font-size="31" text-anchor="middle">晓</text>
+<text x="1153.051" y="371" class="meta" text-anchor="middle">xiao3 · 上</text>
+<text x="1153.051" y="392" class="small" text-anchor="middle">783 ms</text>
+<text x="1153.051" y="414" class="small" text-anchor="middle">十七筱</text>
+<text x="1324" y="439" class="small" text-anchor="end">第 1 句 · 2.869 秒 · 横轴为本句时间</text>
+<path d="M72 464.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 504.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 544.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72.0000 455 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="72.0000,471.8431 125.5959,479.6863 179.1918,495.3725 232.7877,511.0588 286.3836,518.9020" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M179.192 555 L179.192 571" stroke="#c7d0c5"/>
+<text data-character="处" x="179.192" y="604" font-size="31" text-anchor="middle">处</text>
+<text x="179.192" y="629" class="meta" text-anchor="middle">chu4 · ?</text>
+<text x="179.192" y="650" class="small" text-anchor="middle">500 ms</text>
+<text x="179.192" y="672" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M286.3836 455 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="286.3836,474.1961 344.2671,482.0392 402.1507,497.7255 460.0342,513.4118 517.9178,521.2549" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M402.151 555 L402.151 571" stroke="#c7d0c5"/>
+<text data-character="处" x="402.151" y="604" font-size="31" text-anchor="middle">处</text>
+<text x="402.151" y="629" class="meta" text-anchor="middle">chu4 · ?</text>
+<text x="402.151" y="650" class="small" text-anchor="middle">540 ms</text>
+<text x="402.151" y="672" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M517.918 578 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M517.9178 455 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="517.9178,515.7647 571.5137,507.9216 625.1096,500.0784 678.7055,484.3922 732.3014,476.5490" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M625.110 555 L625.110 571" stroke="#c7d0c5"/>
+<text data-character="闻" x="625.110" y="604" font-size="31" text-anchor="middle">闻</text>
+<text x="625.110" y="629" class="meta" text-anchor="middle">wen2 · ?</text>
+<text x="625.110" y="650" class="small" text-anchor="middle">500 ms</text>
+<text x="625.110" y="672" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M732.3014 455 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="732.3014,518.1176 790.1849,510.2745 848.0685,502.4314 905.9521,486.7451 963.8356,478.9020" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M848.068 555 L848.068 571" stroke="#c7d0c5"/>
+<text data-character="啼" x="848.068" y="604" font-size="31" text-anchor="middle">啼</text>
+<text x="848.068" y="629" class="meta" text-anchor="middle">ti2 · ?</text>
+<text x="848.068" y="650" class="small" text-anchor="middle">540 ms</text>
+<text x="848.068" y="672" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M963.836 578 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M963.8356 455 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="963.8356,512.6275 1053.8767,528.3137 1143.9178,536.1569 1233.9589,520.4706 1324.0000,496.9412" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M1143.918 555 L1143.918 571" stroke="#c7d0c5"/>
+<text data-character="鸟" x="1143.918" y="604" font-size="31" text-anchor="middle">鸟</text>
+<text x="1143.918" y="629" class="meta" text-anchor="middle">niao3 · 上</text>
+<text x="1143.918" y="650" class="small" text-anchor="middle">840 ms</text>
+<text x="1143.918" y="672" class="small" text-anchor="middle">十七筱</text>
+<text x="1324" y="697" class="small" text-anchor="end">第 2 句 · 2.920 秒 · 横轴为本句时间</text>
+<path d="M72 722.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 762.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 802.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72.0000 713 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="72.0000,729.8431 119.4848,737.6863 166.9697,753.3725 214.4545,769.0588 261.9393,776.9020" fill="none" stroke="#267169" stroke-width="3"/>
+<path d="M166.970 813 L166.970 829" stroke="#c7d0c5"/>
+<text data-character="夜" x="166.970" y="862" font-size="31" text-anchor="middle">夜</text>
+<text x="166.970" y="887" class="meta" text-anchor="middle">ye4 · 去</text>
+<text x="166.970" y="908" class="small" text-anchor="middle">443 ms</text>
+<text x="166.970" y="930" class="small" text-anchor="middle">二十二祃</text>
+<path d="M261.9393 713 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="261.9393,771.4118 324.0195,763.5686 386.0996,755.7255 448.1798,740.0392 510.2600,732.1961" fill="none" stroke="#267169" stroke-width="3"/>
+<path d="M386.100 813 L386.100 829" stroke="#c7d0c5"/>
+<text data-character="来" x="386.100" y="862" font-size="31" text-anchor="middle">来</text>
+<text x="386.100" y="887" class="meta" text-anchor="middle">lai2 · 平</text>
+<text x="386.100" y="908" class="small" text-anchor="middle">579 ms</text>
+<text x="386.100" y="930" class="small" text-anchor="middle">十灰</text>
+<path d="M510.260 836 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M510.2600 713 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="510.2600,742.3922 567.7416,742.3922 625.2233,742.3922 682.7049,742.3922 740.1865,742.3922" fill="none" stroke="#267169" stroke-width="3"/>
+<path d="M625.223 813 L625.223 829" stroke="#c7d0c5"/>
+<text data-character="风" x="625.223" y="862" font-size="31" text-anchor="middle">风</text>
+<text x="625.223" y="887" class="meta" text-anchor="middle">feng1 · 平</text>
+<text x="625.223" y="908" class="small" text-anchor="middle">536 ms</text>
+<text x="625.223" y="930" class="small" text-anchor="middle">一东</text>
+<path d="M740.1865 713 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="740.1865,768.2745 794.1693,783.9608 848.1520,791.8039 902.1348,776.1176 956.1175,752.5882" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M848.152 813 L848.152 829" stroke="#c7d0c5"/>
+<text data-character="雨" x="848.152" y="862" font-size="31" text-anchor="middle">雨</text>
+<text x="848.152" y="887" class="meta" text-anchor="middle">yu3 · ?</text>
+<text x="848.152" y="908" class="small" text-anchor="middle">504 ms</text>
+<text x="848.152" y="930" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M956.118 836 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M956.1175 713 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="956.1175,747.0980 1048.0882,747.0980 1140.0588,747.0980 1232.0294,747.0980 1324.0000,747.0980" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M1140.059 813 L1140.059 829" stroke="#c7d0c5"/>
+<text data-character="声" x="1140.059" y="862" font-size="31" text-anchor="middle">声</text>
+<text x="1140.059" y="887" class="meta" text-anchor="middle">sheng1 · 平</text>
+<text x="1140.059" y="908" class="small" text-anchor="middle">858 ms</text>
+<text x="1140.059" y="930" class="small" text-anchor="middle">八庚</text>
+<text x="1324" y="955" class="small" text-anchor="end">第 3 句 · 2.920 秒 · 横轴为本句时间</text>
+<path d="M72 980.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 1020.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72 1060.00 H1324" stroke="#dce2da" fill="none"/>
+<path d="M72.0000 971 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="72.0000,995.6863 125.9469,995.6863 179.8938,995.6863 233.8407,995.6863 287.7877,995.6863" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M179.894 1071 L179.894 1087" stroke="#c7d0c5"/>
+<text data-character="花" x="179.894" y="1120" font-size="31" text-anchor="middle">花</text>
+<text x="179.894" y="1145" class="meta" text-anchor="middle">hua1 · ?</text>
+<text x="179.894" y="1166" class="small" text-anchor="middle">484 ms</text>
+<text x="179.894" y="1188" class="small" text-anchor="middle">韵部待核对</text>
+<path d="M287.7877 971 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="287.7877,990.1961 331.4847,998.0392 375.1817,1013.7255 418.8787,1029.4118 462.5757,1037.2549" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M375.182 1071 L375.182 1087" stroke="#c7d0c5"/>
+<text data-character="落" x="375.182" y="1120" font-size="31" text-anchor="middle">落</text>
+<text x="375.182" y="1145" class="meta" text-anchor="middle">luo4 · 入</text>
+<text x="375.182" y="1166" class="small" text-anchor="middle">392 ms</text>
+<text x="375.182" y="1188" class="small" text-anchor="middle">入声十药</text>
+<path d="M462.576 1094 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M462.5757 971 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="462.5757,1000.3922 524.6146,1000.3922 586.6536,1000.3922 648.6925,1000.3922 710.7315,1000.3922" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M586.654 1071 L586.654 1087" stroke="#c7d0c5"/>
+<text data-character="知" x="586.654" y="1120" font-size="31" text-anchor="middle">知</text>
+<text x="586.654" y="1145" class="meta" text-anchor="middle">zhi1 · 平</text>
+<text x="586.654" y="1166" class="small" text-anchor="middle">556 ms</text>
+<text x="586.654" y="1188" class="small" text-anchor="middle">四支</text>
+<path d="M710.7315 971 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="710.7315,1002.7451 777.7335,1002.7451 844.7356,1002.7451 911.7377,1002.7451 978.7397,1002.7451" fill="none" stroke="#267169" stroke-width="3"/>
+<path d="M844.736 1071 L844.736 1087" stroke="#c7d0c5"/>
+<text data-character="多" x="844.736" y="1120" font-size="31" text-anchor="middle">多</text>
+<text x="844.736" y="1145" class="meta" text-anchor="middle">duo1 · 平</text>
+<text x="844.736" y="1166" class="small" text-anchor="middle">601 ms</text>
+<text x="844.736" y="1188" class="small" text-anchor="middle">五歌</text>
+<path d="M978.740 1094 v26" stroke="#b66b35" stroke-width="2"/>
+<path d="M978.7397 971 v98" stroke="#d1d9d0" stroke-dasharray="3 4"/>
+<polyline points="978.7397,1028.6275 1065.0548,1044.3137 1151.3699,1052.1569 1237.6849,1036.4706 1324.0000,1012.9412" fill="none" stroke="#b66b35" stroke-width="3"/>
+<path d="M1151.370 1071 L1151.370 1087" stroke="#c7d0c5"/>
+<text data-character="少" x="1151.370" y="1120" font-size="31" text-anchor="middle">少</text>
+<text x="1151.370" y="1145" class="meta" text-anchor="middle">shao3 · ?</text>
+<text x="1151.370" y="1166" class="small" text-anchor="middle">774 ms</text>
+<text x="1151.370" y="1188" class="small" text-anchor="middle">韵部待核对</text>
+<text x="1324" y="1213" class="small" text-anchor="end">第 4 句 · 2.807 秒 · 横轴为本句时间</text>
+<text x="68" y="1257" class="small">未经独立吟诵审校；不代表历史吟调或特定人物风格。音高空缺保持留空；句间试听间隔不是测量停顿。</text>
+<text x="68" y="1280" class="small">PoemChant Studio 2.0.0 · public-rules-v1:R0 · 工程 eb1c50a6feb5bba3</text></svg>

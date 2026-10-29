@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poemchant-studio"
+version = "2.0.0"
+description = "Offline editable chant scores and annotations for classical Chinese poetry"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Edward Yiyang Zhou"}]
+dependencies = ["numpy==2.3.5", "pypinyin==0.55.0", "opencc-python-reimplemented==0.1.7"]
+
+[project.optional-dependencies]
+build = ["pyinstaller==6.22.0", "Pillow>=11,<13"]
+test = ["mido==1.3.3", "lxml>=6,<7"]
+
+[project.scripts]
+poemchant-studio = "poemchant_studio.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+poemchant_studio = ["web/*", "resources/*", "legacy/*.py", "legacy/vendor/*.py"]

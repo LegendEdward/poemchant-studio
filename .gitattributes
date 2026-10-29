@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.swift text eol=lf
+*.js text eol=lf
+*.sh text eol=lf
+*.command text eol=lf
+*.icns -text
+examples/**/*.csv -text
+licenses/* -text

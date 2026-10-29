@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="poemchant-token" content="__TOKEN__"><title>吟谱 · PoemChant Studio</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><div class="brand"><span class="seal">吟</span><div><strong>吟谱</strong><small>POEMCHANT STUDIO</small></div></div><div class="header-right"><span id="mode-badge" class="badge">本地离线</span><button id="about-button" class="quiet">关于与使用说明</button></div></header>
+<main>
+<aside class="sidebar"><section><h1>从诗句开始</h1><p class="muted">生成一份可修改、可标注的候选吟诵谱。</p>
+<form id="poem-form"><div class="two"><label>题名<input id="title" maxlength="160" placeholder="未题名"></label><label>作者<input id="author" maxlength="160" placeholder="未署名"></label></div>
+<label>诗句<textarea id="poem" rows="6" maxlength="2000" placeholder="床前明月光，疑是地上霜。&#10;举头望明月，低头思故乡。" required></textarea></label>
+<div class="examples"><button type="button" data-example="jingyesi" class="quiet">静夜思</button><button type="button" data-example="chunxiao" class="quiet">春晓</button><button type="button" data-example="shanchuxing" class="quiet">山行</button></div>
+<label>生成方式<select id="mode"><option value="rules">公开规则 R0（未训练）</option></select></label><p id="mode-description" class="hint"></p>
+<div class="two"><label>字长基准（毫秒）<input id="speed" type="number" min="150" max="1200" step="10" value="520" required></label><label>音区基准（Hz）<input id="register" type="number" min="80" max="600" step="1" value="220" required></label></div>
+<button id="generate" class="primary wide" type="submit">生成吟诵谱</button></form>
+<div class="import-row"><label class="button secondary" for="import-project">打开工程文件</label><input id="import-project" type="file" accept=".json,application/json" hidden></div>
+<p class="hint">支持四句或八句的五言、七言诗。保留原字；不自动校勘版本或裁定多音字。</p></section>
+<section class="recent-section"><div class="section-title"><h2>最近保存</h2><button id="refresh-history" class="quiet">刷新</button></div><div id="recent"><p class="hint">还没有工程。</p></div></section>
+<details><summary>本地研究模型</summary><p class="hint">公开包不附研究权重或训练词表。若你持有可使用的 prosody_v1 模型，可在此导入 ZIP。仅核验数据文件，不执行包内代码。</p><label class="button secondary" for="import-model">导入模型包</label><input id="import-model" type="file" accept=".zip,application/zip" hidden><p id="model-status" class="hint"></p></details>
+</aside>
+<div class="canvas-area"><div class="status-bar"><p id="status" role="status" aria-live="polite">输入诗句，开始生成。</p><span id="saved-state"></span></div><p id="error" class="error" role="alert" hidden></p>
+<section id="empty" class="empty"><div class="empty-character">吟</div><h2>诗有声，字有长短。</h2><p>在左侧输入古诗，或选择一首示例。</p><p class="hint">曲线与标注均为待核对候选；器乐试听不包含人声。</p></section>
+<div id="result" hidden>
+<section class="score-panel"><div class="section-title"><div><h2 id="score-title">候选吟诵谱</h2><p id="score-meta" class="hint"></p></div><label class="zoom-label">缩放<select id="zoom"><option value="1">适应窗口</option><option value="1.35">135%</option><option value="1.75">175%</option></select></label></div>
+<div class="score-scroll"><img id="score-image" alt="包含读音、历史调类、时长及韵部候选的连续吟诵谱"></div>
+<div class="playback"><div><label for="audio">器乐试听</label><audio id="audio" controls preload="metadata"></audio></div><label>句间留白（秒）<input id="gap" type="number" min="0" max="3" step="0.05" value="0.65"></label></div>
+<nav id="downloads" class="downloads" aria-label="导出谱面与标注"></nav><p class="hint">完整工程可重新打开。MusicXML 是代表音近似；MIDI 与 WAV 是器乐示意。标注表支持 CSV / JSON。</p></section>
+<section class="editor-panel"><div class="section-title"><div><h2>逐字标注与编辑</h2><p class="hint">点击一个字，修改其读音、调类、时长或曲线。保存时建立新稿，原稿保留。</p></div><span id="selected-position" class="badge"></span></div>
+<div id="character-picker" class="character-picker" aria-label="选择编辑的字"></div>
+<div class="edit-grid"><div class="annotation-fields"><h3><span id="selected-char"></span><span id="annotation-origin" class="hint"></span></h3>
+<div class="two"><label>拼音（数字调号）<input id="char-pinyin" list="pinyin-options" maxlength="24" placeholder="例如 chuang2"><datalist id="pinyin-options"></datalist></label><label>现代调号<select id="char-modern"><option value="">未知</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label></div>
+<div class="two"><label>历史调类<select id="char-historical"><option value="">未知 / 待核对</option><option>平</option><option>上</option><option>去</option><option>入</option></select></label><label>字长（毫秒）<input id="char-duration" type="number" min="50" max="5000" step="1"></label></div>
+<label>韵部候选或编辑标记<input id="char-rhyme" maxlength="120" placeholder="留空表示尚未确定"></label><label class="checkbox"><input id="char-caesura" type="checkbox">在本字后标出分节（不添加声音空档）</label>
+<label>逐字备注<textarea id="char-note" rows="2" maxlength="500" placeholder="读音依据、疑点或编辑说明"></textarea></label><p id="candidates" class="hint"></p>
+</div><div class="pitch-fields"><div class="section-title"><h3>音高曲线</h3><button id="restore-character" class="quiet">恢复本字生成值</button></div><svg id="pitch-editor" viewBox="0 0 520 220" aria-label="当前字音高曲线，可拖动控制点"></svg><div id="pitch-points" class="pitch-points"></div><div class="small-actions"><button id="empty-pitch" class="quiet">将音高标为未知</button><button id="add-point" class="quiet">添加控制点</button></div><p class="hint">拖动圆点改变音高，或直接输入 Hz。空值表示未知；未知片段保持断开。</p></div></div>
+<label>全诗备注<textarea id="poem-note" rows="2" maxlength="4000" placeholder="本次制作的整体说明"></textarea></label>
+<div class="save-actions"><button id="save" class="primary">保存修改并生成新稿</button><button id="reinfer" class="secondary">按当前标注重新生成</button><span class="hint">保存标注不会自动重算曲线；重新生成会替换手工字长及音高。</span></div>
+</section></div>
+</div></main>
+<dialog id="about"><h2>吟谱 · PoemChant Studio 2.0.0</h2><p>本应用生成古诗的候选吟诵谱，并支持逐字标注和编辑。它不撰写新诗，也不合成人声。</p><p>公开规则 R0 使用明确记录的工程规则，没有经过训练或艺术真实性验证。本地研究模式需要自行导入既有模型；研究模型仍是弱参考候选，不能当作历史吟调复原。</p><p>拼音来自 pypinyin；历史调类和韵部来自平水韵的二手机器转录。多读音、字形转换和未知条目需要核对，用户修改也不会自动成为专家审定。</p><p>操作：输入诗句 → 生成 → 逐字编辑 → 保存新稿 → 导出。自动保存的各稿保留在本机应用数据目录，不上传诗文或标注。</p><p class="hint">快捷键：⌘/Ctrl + S 保存；⌘/Ctrl + O 打开工程。导出前先保存修改。软件在当前设备的检查不代替独立音乐学评估。</p><button id="close-about" class="primary">知道了</button></dialog>
+<footer>本地处理 · 可编辑候选 · 保留未知与来源 · MIT 开源代码</footer>
+</body></html>

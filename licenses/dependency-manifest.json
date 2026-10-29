@@ -1,0 +1,64 @@
+[
+  {
+    "package": "numpy",
+    "version": "2.3.5",
+    "files": [
+      "numpy_LICENSE",
+      "numpy_LICENSE.md",
+      "numpy_LICENSE.txt",
+      "numpy_random_LICENSE.txt"
+    ]
+  },
+  {
+    "package": "pypinyin",
+    "version": "0.55.0",
+    "files": [
+      "pypinyin_LICENSE.txt"
+    ]
+  },
+  {
+    "package": "opencc-python-reimplemented",
+    "version": "0.1.7",
+    "files": [
+      "opencc-python-reimplemented_LICENSE.txt",
+      "opencc-python-reimplemented_NOTICE.txt"
+    ]
+  },
+  {
+    "package": "pyinstaller",
+    "version": "6.22.0",
+    "files": [
+      "pyinstaller_COPYING.txt"
+    ]
+  },
+  {
+    "package": "altgraph",
+    "version": "0.17.5",
+    "files": [
+      "altgraph_LICENSE"
+    ]
+  },
+  {
+    "package": "macholib",
+    "version": "1.16.4",
+    "files": [
+      "macholib_LICENSE"
+    ]
+  },
+  {
+    "package": "pyinstaller-hooks-contrib",
+    "version": "2026.9",
+    "files": [
+      "pyinstaller-hooks-contrib_LICENSE"
+    ]
+  },
+  {
+    "package": "packaging",
+    "version": "26.3",
+    "files": [
+      "packaging_LICENSE",
+      "packaging_LICENSE.APACHE",
+      "packaging_LICENSE.BSD"
+    ]
+  }
+]
